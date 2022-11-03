@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar{
+    width: 20px;
+}
+::-webkit-scrollbar-track{
+    background-color: black;
+}
+::-webkit-scrollbar-thumb{
+    background-color: white;
+}
+body{
+    background-color: black;
+}
+video{
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Righteous', cursive;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    color: white;
+    border-bottom: 2px solid #ffd900;
+    -webkit-text-stroke: 2px black;
+    z-index: 1;
+}
+h2{
+    color: white;
+    font-size: 100px;
+    font-weight: 500;
+    position: absolute;
+    top: 300px;
+    font-family: 'Cuprum', sans-serif;
+    left: 300px;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    top: 550px;
+    font-family: 'Cuprum', sans-serif;
+    left: 648px;
+}
+.first{
+    background-color: rgba(0, 0, 0, 0.848);
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+.flash{
+    position: absolute;
+    top: 600px;
+    left: 670px;
+    cursor: pointer;
+}
+nav{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.461);
+    backdrop-filter: blur(6px);
+    padding: 30px 10px;
+    height: 80vh;
+    transition: 0.3s;
+    right: 0;
+}
+.link2{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Righteous', cursive;
+    display: block;
+    transition: 0.3s;
+}
+.link2:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+#menu{
+    position: absolute;
+    right: 140px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.onmenu{
+    transform: rotate(180deg);
+    transition: 0.3s;
+}
+.onnav{
+    transform: translateX(100%);
+    transition: 0.3s;
+}
+.text{
+    width: 100px;
+    height: 1000px;
+    color: white;
+}
+.icon{
+    position: absolute;
+    top: 26px;
+    left: 120px;
+}
+.icons{
+    color: #ffd900;
+    transition:0.3s;
+}
+.icons1{
+    color: #ffd900;
+    position: absolute;
+    left: 40px;
+    transition:0.3s;
+}
+.icons:hover{
+    color: white;
+    transition:0.3s;
+}
+.icons1:hover{
+    transition:0.3s;
+    color: white;
+}
+.lang{
+    position: absolute;
+    padding: 10px;
+    right: 20px;
+    bottom: 10px;
+}
+.Fr{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: flex;
+    font-family: 'Cuprum', sans-serif;
+}
+.an{
+    display: flex;
+    padding: 10px;
+    color: gray;
+    text-decoration: none;
+    font-family: 'Cuprum', sans-serif;
+    display: none;
+   
+}
+.an:hover{
+    text-decoration: underline;
+}
+.lu{
+    position: absolute;
+    left: 40px;
+    top: 24px;
+    cursor: pointer;
+    transform: rotate(90deg);
+    width: 10px;
+    transition: 0.3s;
+}
+.onlang{
+    transform: rotate(0deg);
+    transition: 0.3s;
+}
+.onan{
+    display:  unset;
+    transition: 0.3s;
+}
+.fin{
+     bottom: 0;
+     z-index: -1;
+}
+#btnfin{
+    position:fixed;
+    right:20px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.3s;
+}
+#btnfin:hover{
+    transform: scale(0.9);
+    transition: 0.3s;
+}
